@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<stdlib.h>
 int main(){
 
     //for ceil 
@@ -18,12 +19,17 @@ int main(){
 
     //for sqrt
     double d = sqrt(x);
-    printf("\nsqrt is : %lf",d);
+    printf("\nsqrt is : %.3lf",d);
 
     //power
 
-    int p = pow(x,2);
-    printf("\npower is : %d",p);
+    double p = pow(x,2);
+    printf("\npower is : %.3lf",p);
+
+    //absoulate value
+    int res = abs(x);
+    printf("\nabs is : %d",res);
+    
 
 
 
